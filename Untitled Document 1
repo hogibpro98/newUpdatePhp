@@ -1,0 +1,19 @@
+record/user/index.php
+        <script>
+            $(function () {
+                $(".record_entry").on("click", function (e) {
+record/user/dialog/usr_pln_new_edit_dialog.php
+$userIdParam = filter_input(INPUT_GET, 'user_params');
+<?php if ($userIdParam && isset($userList[$userIdParam])) : ?>
+common/js/common.js
+window.addEventListener('load', () => {
+  // モーダルダイアログ呼び出し
+  $(document).on('click', '.modal_open', function () {
+common/dialog/user.php
+        $(".tgt-usr_id").on("blur", function () {
+            // 入力テキスト取得
+            var inputText = $(this).val();
+            var found = false;
+
+            // IDの一致チェック
+            $(".cont_user button").each(function () {
